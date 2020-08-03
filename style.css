@@ -1,0 +1,98 @@
+.show-content {
+    display: none;
+}
+
+.ingot h2 {
+    text-align: center;
+    background: #6904ED;
+    margin: 0;
+    padding: 20px;
+    color: #fff;
+}
+
+.tab-container {
+    width: calc(100% - 40px);
+    margin: 20px;
+}
+    .panel-outer {
+        margin: 0 auto;
+        margin-bottom: 20px;
+        border: 1px solid #A286C7;
+        padding: 20px;
+        overflow: auto;
+    }
+        .column-left {
+            width: calc(75% - 20px);
+            float: left;
+        }
+        .column-right {
+            float: right;
+            width: 25%;
+        }
+        .call-to-action {
+            background: #FA545D;
+            padding: 15px 32px;
+            color: #fff;
+            display: block;
+            text-align: center;
+            text-decoration: none;
+        }
+        .panel-content {
+            padding-top: 20px;
+        }
+        .details-btn {
+            display: inline-block;
+            padding: 15px 0px 15px 0px;
+            text-align: left;
+            background: none;
+            color: #FA545D;
+            text-decoration: none;
+            cursor: pointer;
+            font-size: 16px;
+            border: none;
+            width: 100%;
+            clear: both;
+        }
+        .details-btn:focus {
+            outline: none;
+        }
+
+
+.tab-bar {
+    width: 100%;
+    text-align: center;
+    background: #6904ED;
+    color: #fff;
+}
+.tab-btn {
+    display: inline-block;
+    padding: 15px 32px;
+    text-align: center;
+    background: none;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 16px;
+    border: none;
+}
+.tab-btn:focus {
+    outline: none;
+}
+.active-tab {
+    border-bottom: 4px solid #fff;
+}
+
+/* RESPONSIVE */
+@media only screen and (max-width: 780px) {
+    .tab-btn {
+        padding: 12px 12px;
+    }
+
+    .column-left {
+        width: 100%;
+    }
+    .column-right {
+        width: 100%;
+        float: left;
+    }
+}
